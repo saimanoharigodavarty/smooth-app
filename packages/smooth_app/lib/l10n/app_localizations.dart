@@ -11002,6 +11002,106 @@ abstract class AppLocalizations {
   /// **'My contributions'**
   String get preferences_my_contributions_title;
 
+  /// Title for the contributor dashboard summary
+  ///
+  /// In en, this message translates to:
+  /// **'Your impact'**
+  String get preferences_contributor_dashboard_summary;
+
+  /// Summary label for added products
+  ///
+  /// In en, this message translates to:
+  /// **'Added'**
+  String get preferences_contributor_dashboard_summary_added;
+
+  /// Summary label for edited products
+  ///
+  /// In en, this message translates to:
+  /// **'Edited'**
+  String get preferences_contributor_dashboard_summary_edited;
+
+  /// Summary label for uploaded photos
+  ///
+  /// In en, this message translates to:
+  /// **'Photos'**
+  String get preferences_contributor_dashboard_summary_photos;
+
+  /// Title for the contributor dashboard badges
+  ///
+  /// In en, this message translates to:
+  /// **'Achievements'**
+  String get preferences_contributor_dashboard_badges;
+
+  /// Badge title for adding new products
+  ///
+  /// In en, this message translates to:
+  /// **'Product Finder'**
+  String get preferences_contributor_dashboard_badge_finder;
+
+  /// Badge title for editing products
+  ///
+  /// In en, this message translates to:
+  /// **'Data Checker'**
+  String get preferences_contributor_dashboard_badge_checker;
+
+  /// Badge title for uploading photos
+  ///
+  /// In en, this message translates to:
+  /// **'Photographer'**
+  String get preferences_contributor_dashboard_badge_photographer;
+
+  /// Description for the edited products contributor badge
+  ///
+  /// In en, this message translates to:
+  /// **'Products I helped improve'**
+  String get preferences_contributor_dashboard_edited;
+
+  /// Description for the photographed products contributor badge
+  ///
+  /// In en, this message translates to:
+  /// **'Photos I uploaded'**
+  String get preferences_contributor_dashboard_photos;
+
+  /// Loading text for a contributor dashboard badge
+  ///
+  /// In en, this message translates to:
+  /// **'Loading contribution count…'**
+  String get preferences_contributor_dashboard_loading;
+
+  /// Badge state before the first contribution
+  ///
+  /// In en, this message translates to:
+  /// **'Locked'**
+  String get preferences_contributor_dashboard_locked;
+
+  /// Contributor badge progress text
+  ///
+  /// In en, this message translates to:
+  /// **'{currentTier} · Next: {nextTier} at {threshold}'**
+  String preferences_contributor_dashboard_next_level(
+    Object currentTier,
+    Object nextTier,
+    int threshold,
+  );
+
+  /// Bronze contributor badge tier
+  ///
+  /// In en, this message translates to:
+  /// **'Bronze'**
+  String get preferences_contributor_dashboard_bronze;
+
+  /// Silver contributor badge tier
+  ///
+  /// In en, this message translates to:
+  /// **'Silver'**
+  String get preferences_contributor_dashboard_silver;
+
+  /// Gold contributor badge tier
+  ///
+  /// In en, this message translates to:
+  /// **'Gold'**
+  String get preferences_contributor_dashboard_gold;
+
   /// Title for my stats preferences tile
   ///
   /// In en, this message translates to:

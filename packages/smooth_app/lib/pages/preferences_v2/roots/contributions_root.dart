@@ -11,6 +11,7 @@ import 'package:smooth_app/pages/preferences_v2/roots/preferences_root.dart';
 import 'package:smooth_app/pages/preferences_v2/roots/prices_root.dart';
 import 'package:smooth_app/pages/preferences_v2/tiles/preference_tile.dart';
 import 'package:smooth_app/pages/preferences_v2/tiles/url_preference_tile.dart';
+import 'package:smooth_app/pages/preferences_v2/widgets/contributor_dashboard.dart';
 import 'package:smooth_app/pages/product/common/product_query_page_helper.dart';
 import 'package:smooth_app/query/paged_product_query.dart';
 import 'package:smooth_app/query/paged_to_be_completed_product_query.dart';
@@ -34,6 +35,38 @@ class ContributionsRoot extends PreferencesRoot {
     return <PreferenceCard>[
       PreferenceCard(
         title: appLocalizations.preferences_my_contributions_title,
+        header: ContributorDashboard(
+          onProductFinderTap: () => _openProductQuery(
+            context: context,
+            localDatabase: localDatabase,
+            productQuery: PagedUserProductQuery(
+              userId: userId,
+              type: UserSearchType.CONTRIBUTOR,
+              productType: ProductType.food,
+            ),
+            title: appLocalizations.user_search_contributor_title,
+          ),
+          onDataCheckerTap: () => _openProductQuery(
+            context: context,
+            localDatabase: localDatabase,
+            productQuery: PagedUserProductQuery(
+              userId: userId,
+              type: UserSearchType.INFORMER,
+              productType: ProductType.food,
+            ),
+            title: appLocalizations.user_search_informer_title,
+          ),
+          onPhotographerTap: () => _openProductQuery(
+            context: context,
+            localDatabase: localDatabase,
+            productQuery: PagedUserProductQuery(
+              userId: userId,
+              type: UserSearchType.PHOTOGRAPHER,
+              productType: ProductType.food,
+            ),
+            title: appLocalizations.user_search_photographer_title,
+          ),
+        ),
         tiles: <PreferenceTile>[
           _buildNewProductsTile(
             context,

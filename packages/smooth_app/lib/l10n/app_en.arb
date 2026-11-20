@@ -5752,6 +5752,77 @@
   "@preferences_my_contributions_title": {
     "description": "Title for my contributions preferences tile"
   },
+  "preferences_contributor_dashboard_summary": "Your impact",
+  "@preferences_contributor_dashboard_summary": {
+    "description": "Title for the contributor dashboard summary"
+  },
+  "preferences_contributor_dashboard_summary_added": "Added",
+  "@preferences_contributor_dashboard_summary_added": {
+    "description": "Summary label for added products"
+  },
+  "preferences_contributor_dashboard_summary_edited": "Edited",
+  "@preferences_contributor_dashboard_summary_edited": {
+    "description": "Summary label for edited products"
+  },
+  "preferences_contributor_dashboard_summary_photos": "Photos",
+  "@preferences_contributor_dashboard_summary_photos": {
+    "description": "Summary label for uploaded photos"
+  },
+  "preferences_contributor_dashboard_badges": "Achievements",
+  "@preferences_contributor_dashboard_badges": {
+    "description": "Title for the contributor dashboard badges"
+  },
+  "preferences_contributor_dashboard_badge_finder": "Product Finder",
+  "@preferences_contributor_dashboard_badge_finder": {
+    "description": "Badge title for adding new products"
+  },
+  "preferences_contributor_dashboard_badge_checker": "Data Checker",
+  "@preferences_contributor_dashboard_badge_checker": {
+    "description": "Badge title for editing products"
+  },
+  "preferences_contributor_dashboard_badge_photographer": "Photographer",
+  "@preferences_contributor_dashboard_badge_photographer": {
+    "description": "Badge title for uploading photos"
+  },
+  "preferences_contributor_dashboard_edited": "Products I helped improve",
+  "@preferences_contributor_dashboard_edited": {
+    "description": "Description for the edited products contributor badge"
+  },
+  "preferences_contributor_dashboard_photos": "Photos I uploaded",
+  "@preferences_contributor_dashboard_photos": {
+    "description": "Description for the photographed products contributor badge"
+  },
+  "preferences_contributor_dashboard_loading": "Loading contribution count…",
+  "@preferences_contributor_dashboard_loading": {
+    "description": "Loading text for a contributor dashboard badge"
+  },
+  "preferences_contributor_dashboard_locked": "Locked",
+  "@preferences_contributor_dashboard_locked": {
+    "description": "Badge state before the first contribution"
+  },
+  "preferences_contributor_dashboard_next_level": "{currentTier} · Next: {nextTier} at {threshold}",
+  "@preferences_contributor_dashboard_next_level": {
+    "description": "Contributor badge progress text",
+    "placeholders": {
+      "currentTier": {},
+      "nextTier": {},
+      "threshold": {
+        "type": "int"
+      }
+    }
+  },
+  "preferences_contributor_dashboard_bronze": "Bronze",
+  "@preferences_contributor_dashboard_bronze": {
+    "description": "Bronze contributor badge tier"
+  },
+  "preferences_contributor_dashboard_silver": "Silver",
+  "@preferences_contributor_dashboard_silver": {
+    "description": "Silver contributor badge tier"
+  },
+  "preferences_contributor_dashboard_gold": "Gold",
+  "@preferences_contributor_dashboard_gold": {
+    "description": "Gold contributor badge tier"
+  },
   "preferences_my_stats_title": "My statistics",
   "@preferences_my_stats_title": {
     "description": "Title for my stats preferences tile"
